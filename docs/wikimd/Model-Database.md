@@ -57,6 +57,7 @@ The Face Focus modes was designed for **slightly out of focus / blurred images o
 |[Xbrz](https://drive.google.com/open?id=1LFd4BqZ2N8p21JzjLX6hGdm7RpVIkH7s)|LyonHrt|4||Xbrz style pixel art upscaler|90,000|8|128|368|1897|custom xbrz up-scaled|RRDB_PSNR_x4|
 |[ScaleNX](https://drive.google.com/open?id=1jE2le5Lsab-AcMUMm0Zr9L-OvFNhnRAG)|LyonHrt|4||Scalenx style pixel art upscaler|80,000|8|128|599|1,070|custom scalenx up-scaled from retroarch shader|RRDB_PSNR_x4|
 |[Xbrz+DD](https://drive.google.com/open?id=1VDbjRii9zyyUhyqnQd5H8OP8d3AuwjTe)|LyonHrt|4||Xbrz style pixel art upscaler with de-dithering|90,000|8|128|470|1,523|custom de-dithered xbrz|xbrz|
+
 ### Description
 
 The map model was trained on **maps, old documents, papers and various styles of typefaces/fonts**. Based on a dataset contributed by alsa64. [Sample](https://imgsli.com/MzMwNw)
@@ -161,3 +162,4 @@ In addition to that all models by:
 
 have the following additional restriction:
 - You can't sell results generated with a model using that license.
+  

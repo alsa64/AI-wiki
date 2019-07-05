@@ -3,10 +3,9 @@
 
 <head>
     <style>
-        html, body { height: 100%; width: 100%; overflow: hidden; }
-        #content { height: 100%; width: 100% }
-        iframe { border: none }
-        iframe a { text-align: center; vertical-align: middle }
+		html, body { height: 100%; margin: 0; padding: 0; overflow: hidden}
+		body { display: flex; flex-direction: column; }
+        #content { flex: 1 1 auto; padding: 0 1em; overflow-x: hidden; overflow-y: auto }
     </style>
 	<script src="assets/js/libs/marked.min.js"></script>
 	<script src="assets/js/libs/purify.min.js"></script>
