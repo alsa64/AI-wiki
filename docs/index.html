@@ -3,26 +3,18 @@
 
 <head>
     <style>
-        body { margin: 0 }
+        html, body { height: 100%; width: 100%; overflow: hidden; }
+        #content { height: 100%; width: 100% }
         iframe { border: none }
         iframe a { text-align: center; vertical-align: middle }
     </style>
+	<script src="assets/js/libs/marked.min.js"></script>
+	<script src="assets/js/libs/purify.min.js"></script>
+	<script src="assets/js/handler.js"></script>
 </head>
 
 <body>
-    <div id="content">
-        <iframe
-            src="https://github.com/alsa64/AI-wiki/wiki"
-            width="100%"
-            height="100%"
-            allowfullscreen
-            sandbox>
-            <a href="https://github.com/alsa64/AI-wiki/wiki">
-                Wiki Embed Failed<br>
-                Click this link to access the default wiki page.
-            </a>
-        </iframe>
-    </div>
+    <div id="content"></div>
 </body>
 
 </html>
