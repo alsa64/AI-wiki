@@ -112,5 +112,5 @@ function directoryAssign() {
 * Init Operations
 ********************/
 wikiContentWrite(xhttpWikiDir, "wikimd/", "directory");
-wikiContentWrite(xhttpMDFile, "Readme.md", "content");
+wikiContentWrite(xhttpMDFile, "README.md", "content");
 // directoryH1Correct();
