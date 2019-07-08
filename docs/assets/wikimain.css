@@ -1,0 +1,55 @@
+/********************
+* General
+********************/
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    overflow: hidden}
+
+body {
+    display: flex;
+    flex-direction: row;
+}
+
+#content, #directory {
+    flex: 0 1 auto;
+    padding: 0 1em;
+    overflow-x: hidden;
+    overflow-y: auto }
+
+#directory {
+    flex-basis: 15%;
+}
+
+#content {
+    flex-grow: 1;
+}
+
+
+/********************
+* Directory Menu
+********************/
+#directory {
+    -webkit-box-shadow: inset -2rem 0px 1.5rem -1.5rem rgba(0,0,0,0.66);
+    -moz-box-shadow: inset -2rem 0px 1.5rem -1.5rem rgba(0,0,0,0.66);
+    box-shadow: inset -2rem 0px 1.5rem -1.5rem rgba(0,0,0,0.66);
+}
+/* Hide size and date link elements by default */
+#directory > #wrapper > #files a > .size,
+#directory > #wrapper > #files a > .date {
+    display: none;
+}
+
+#directory > #wrapper > h1 {
+    content: "Testing";
+}
+
+
+/********************
+* Centent Window
+********************/
+/* Content box shadow */
+div#content {
+
+}

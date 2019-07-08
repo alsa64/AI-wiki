@@ -1,5 +1,5 @@
-# Placeholder for potential website import
+# Placeholder for styled wiki display
 
-### AI-wiki
+## Under construction
+
 Please head over to the [wiki](https://github.com/alsa64/AI-wiki/wiki)
-Testing line breaks
