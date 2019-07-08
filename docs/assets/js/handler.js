@@ -66,6 +66,18 @@ function xhttpReady(resource, type) {
 			console.log("------------------------------\nxhttpReady:Directory Terminate\n------------------------------\n\n");
 		}
 	}
+	if (!xhttpStatus(resource)) {
+        if (type === "content") {
+			console.log("\n\n------------------------------\nxhttpReady:Content Initialization\n------------------------------");
+			console.log("CONTENT CANNOT BE FOUND");
+			console.log("------------------------------\nxhttpReady:Content Terminate\n------------------------------\n\n");
+		}
+		if (type === "directory") {
+			console.log("\n\n------------------------------\nxhttpReady:Directory Initialization\n------------------------------");
+			console.log("DIRECTORY CANNOT BE FOUND");
+			console.log("------------------------------\nxhttpReady:Directory Terminate\n------------------------------\n\n");
+		}
+	}
 }
 function wikiContentWrite(call, resource, type) {
     call.open("GET", resource, true);
